@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=guamna
+DEVICE=borneo
 VENDOR=motorola
 
 # Load extract utilities and do some sanity checks.
