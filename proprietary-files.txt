@@ -11,6 +11,11 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Firmware
+vendor/firmware/ilitek_fw.bin
+vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_mp.bin
+
 # Media
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
