@@ -25,14 +25,6 @@ TARGET_BOOTLOADER_BOARD_NAME := borneo
 # Platform
 PRODUCT_PLATFORM := bengal
 
-# Kernel DTB/DTBO
-BOARD_PREBUILT_DTBIMAGE_DIR := device/motorola/sm4250-common-kernel/dtb
-BOARD_PREBUILT_DTBOIMAGE := device/motorola/sm4250-common-kernel/dtbo.img
-
-# Kernel Modules
-BOARD_VENDOR_KERNEL_MODULES := \
-    $(wildcard device/motorola/sm4250-common-kernel/modules/*.ko)
-
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864

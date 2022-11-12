@@ -20,7 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    device/motorola/sm4250-common-kernel/bengal-moto-cebub-Image.gz:kernel
+    device/motorola/borneo-kernel/Image.gz:kernel
 
 # Audio Configuration
 PRODUCT_COPY_FILES += \
