@@ -19,6 +19,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := aosp_borneo
 PRODUCT_DEVICE := borneo
-PRODUCT_MODEL := moto g play 2021 (AOSP)
+PRODUCT_MODEL := moto g power 2021 (AOSP)
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
