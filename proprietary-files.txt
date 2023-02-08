@@ -254,6 +254,9 @@ vendor/firmware/ilitek_fw.bin
 vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_mp.bin
 
+# Firmware - from cebu
+vendor/firmware/novatek_ts_fw.bin:vendor/firmware/tm_novatek_ts_fw.bin
+
 # Media
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
