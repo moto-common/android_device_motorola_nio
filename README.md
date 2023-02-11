@@ -1,7 +1,11 @@
-Copyright (C) Sony Mobile Communications 2020
-=============================================
+Moto G Power 2021
+============
 
-This is the Android device configuration for Xperia 1 II (edo platform).
+## Copyrights
+Copyright (C) Electimon 2023
 
-Build instructions
-https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/
+Copyright (C) Sony Mobile Communications 2019
+
+## Device Tree
+
+Android device configuration for the Moto G Power 2021 (**SM6115**).
