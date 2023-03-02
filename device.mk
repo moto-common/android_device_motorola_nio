@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.borneo \
-    ramdisk-fstab.borneo \
+    fstab.qcom.ramdisk \
+    fstab.qcom \
     init.recovery.qcom.rc
 
 PRODUCT_AAPT_CONFIG := normal
