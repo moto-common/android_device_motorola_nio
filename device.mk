@@ -15,9 +15,6 @@
 # Device path
 DEVICE_PATH := device/motorola/borneo/rootdir
 
-DEVICE_PACKAGE_OVERLAYS += \
-    device/motorola/borneo/overlay
-
 # Kernel
 PRODUCT_COPY_FILES += \
     device/motorola/borneo-kernel/Image.gz:kernel
