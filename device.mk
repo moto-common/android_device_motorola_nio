@@ -35,6 +35,13 @@ TARGET_USES_FPC_FINGERPRINT := true
 # Model
 PRODUCT_MODEL := moto g power 2021
 
+# Props
+PRODUCT_COPY_FILES += \
+    device/motorola/borneo/props/build_borneo.prop:$(TARGET_COPY_OUT_VENDOR)/build_borneo.prop \
+    device/motorola/borneo/props/build_cebu.prop:$(TARGET_COPY_OUT_VENDOR)/build_cebu.prop
+
+TARGET_VENDOR_PROP += device/motorola/borneo/props/vendor.prop
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4250-common/platform.mk)
 

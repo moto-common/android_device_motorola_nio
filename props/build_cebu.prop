@@ -1,0 +1,9 @@
+# Audio
+persist.vendor.audio.calfile0=/vendor/etc/acdbdata/cebu/Bluetooth_cal.acdb 
+persist.vendor.audio.calfile1=/vendor/etc/acdbdata/cebu/General_cal.acdb 
+persist.vendor.audio.calfile2=/vendor/etc/acdbdata/cebu/Global_cal.acdb 
+persist.vendor.audio.calfile3=/vendor/etc/acdbdata/cebu/Handset_cal.acdb 
+persist.vendor.audio.calfile4=/vendor/etc/acdbdata/cebu/Hdmi_cal.acdb 
+persist.vendor.audio.calfile5=/vendor/etc/acdbdata/cebu/Headset_cal.acdb 
+persist.vendor.audio.calfile6=/vendor/etc/acdbdata/cebu/Speaker_cal.acdb
+ro.boot.product.vendor.sku=cebu
