@@ -32,6 +32,9 @@ PRODUCT_PACKAGES += \
 TARGET_USES_EGISTEC_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
 
+# Model
+PRODUCT_MODEL := moto g power 2021
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4250-common/platform.mk)
 
