@@ -23,11 +23,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=280
 
-# Device Init
-PRODUCT_PACKAGES += \
-    fstab.qcom.ramdisk \
-    fstab.qcom
-
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_EGISTEC_FINGERPRINT := true
@@ -42,6 +37,9 @@ PRODUCT_COPY_FILES += \
     device/motorola/borneo/props/build_cebu.prop:$(TARGET_COPY_OUT_VENDOR)/build_cebu.prop
 
 TARGET_VENDOR_PROP += device/motorola/borneo/props/vendor.prop
+
+# Recovery
+AB_OTA_PARTITIONS += recovery
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4250-common/platform.mk)
