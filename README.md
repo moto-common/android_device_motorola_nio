@@ -1,4 +1,4 @@
-Moto G Power 2021
+Moto Edge S / Moto G100
 ============
 
 ## Copyrights
@@ -8,4 +8,4 @@ Copyright (C) Sony Mobile Communications 2019
 
 ## Device Tree
 
-Android device configuration for the Moto G Power 2021 (**SM6115**).
+Android device configuration for the Moto Edge S / Moto G100 (**SM8250**).

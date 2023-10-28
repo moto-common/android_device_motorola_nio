@@ -13,36 +13,25 @@
 # limitations under the License.
 
 # Device path
-DEVICE_PATH := device/motorola/borneo/rootdir
+DEVICE_PATH := device/motorola/nio/rootdir
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_PROPERTY_OVERRIDES := \
-    ro.sf.lcd_density=280
+    ro.sf.lcd_density=480
 
 # Fingerprint
-TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_EGISTEC_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
 
 # Model
-PRODUCT_MODEL := moto g power 2021
-
-# Props
-PRODUCT_COPY_FILES += \
-    device/motorola/borneo/props/build_borneo.prop:$(TARGET_COPY_OUT_VENDOR)/build_borneo.prop \
-    device/motorola/borneo/props/build_cebu.prop:$(TARGET_COPY_OUT_VENDOR)/build_cebu.prop
-
-TARGET_VENDOR_PROP += device/motorola/borneo/props/vendor.prop
-
-# Recovery
-AB_OTA_PARTITIONS += recovery
+PRODUCT_MODEL := moto edge s
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/motorola/sm4250-common/platform.mk)
+$(call inherit-product, device/motorola/sm8250-common/platform.mk)
 
 # include board vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/borneo/borneo-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)

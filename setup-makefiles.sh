@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=borneo
+DEVICE=nio
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks
