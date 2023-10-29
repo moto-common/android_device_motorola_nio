@@ -156,6 +156,10 @@ vendor/etc/camera/vidhance_calibration
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
 
+# Firmware
+vendor/firmware/aw8695_haptic.bin
+vendor/firmware/aw8695_rtp.bin
+
 # Sensors
 vendor/lib64/sensors.ssc.so
 

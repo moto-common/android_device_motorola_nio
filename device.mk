@@ -21,7 +21,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_PROPERTY_OVERRIDES := \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=420
 
 # Fingerprint
 TARGET_USES_EGISTEC_FINGERPRINT := true
